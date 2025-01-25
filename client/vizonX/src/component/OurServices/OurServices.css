@@ -1,0 +1,71 @@
+.ourServiceDiv {
+  background: #ebeaef;
+}
+.mainP {
+  font-size: 5rem !important;
+  text-align: center;
+  padding: 10px;
+}
+.flexDiv {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next row */
+  gap: 30px; /* Space between items */
+  padding: 30px;
+}
+.flexDiv Div {
+  flex: 1 1 calc(50% - 20px);
+  box-sizing: border-box;
+  background: #5b43ac7d;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  gap: 0px;
+  border: 1px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+.Obtns {
+  font-family: Inria Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /*  */
+  border-radius: 10px;
+  border: 1px;
+  padding: 8px;
+  width: 17%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.ODetails {
+  font-family: Inria Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.78px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 10px;
+}
+
+.Otopic {
+  font-family: Inria Sans;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47.96px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  padding: 10px;
+}
+.imgs {
+  height: 318px;
+  width: 504px;
+  text-align: center;
+  border-radius: 20px;
+}

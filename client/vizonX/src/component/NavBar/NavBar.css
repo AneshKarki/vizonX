@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainDiv {
+  display: flex;
+  background: linear-gradient(180deg, #36267d 0%, #0f014d 100%);
+  justify-content: space-between;
+  height: 10vh;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.innerDiv {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  width: 40%;
+  padding: 10px;
+}
