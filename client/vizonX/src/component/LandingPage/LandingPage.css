@@ -1,13 +1,16 @@
 .landingPage {
   background: linear-gradient(180deg, #36267d 0%, #0f014d 100%);
   border: 1px solid #36267d;
+  height: 100vh;
 }
 .insidelandingPage {
   background: linear-gradient(180deg, #ffffff 0%, #a592e3 100%);
   padding: 10px;
   margin: 40px;
   border-radius: 15px;
+  height: 88%;
   display: flex;
+  position: relative;
 }
 .text {
   width: 60%;
@@ -15,17 +18,15 @@
 .text1 {
   position: absolute;
   width: 636px;
-  height: 143px;
-  top: 227px;
+  /* height: 143px; */
+  top: 107px;
   left: 102px;
-  gap: 0px;
-  opacity: 0px;
 }
 .text2 {
   position: absolute;
   width: 606px;
   height: 54px;
-  top: 396px;
+  top: 266px;
   left: 102px;
   gap: 0px;
   opacity: 0px;
@@ -34,7 +35,7 @@
   position: absolute;
   width: 391px;
   height: 85px;
-  top: 435px;
+  top: 305px;
   left: 102px;
   gap: 0px;
   opacity: 0px;
@@ -46,12 +47,12 @@
 }
 .btns1 {
   position: absolute;
-  width: 230px;
+  width: 200px;
   height: 65px;
-  top: 564px;
+  top: 404px;
   left: 87px;
   gap: 0px;
-  border-radius: 24px;
+  border-radius: 20px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
   color: #2609a6;
@@ -67,13 +68,11 @@
 }
 .btns2 {
   position: absolute;
-  width: 230px;
+  width: 200px;
   height: 65px;
-  top: 564px;
+  top: 404px;
   left: 332px;
-  gap: 0px;
-  border-radius: 24px;
-  opacity: 0px;
+  border-radius: 20px;
   background: #2609a6;
   font-family: Inria Sans;
   font-size: 20px;
@@ -85,4 +84,9 @@
   color: white;
   text-align: center;
   border: none;
+}
+.imagess {
+  position: absolute;
+  top: -50px;
+  left: 700px;
 }

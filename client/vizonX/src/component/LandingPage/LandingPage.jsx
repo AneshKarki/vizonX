@@ -33,7 +33,7 @@ const LandingPage = () => {
                 textdecorationskipink: "none",
               }}
             >
-              Elevate your Brand with Innovative Marketing Solutions
+              <b>Elevate your Brand with Innovative Marketing Solutions</b>
             </p>
             <p
               className="text3"
@@ -57,8 +57,8 @@ const LandingPage = () => {
               <button className="btns2">Book Your Free Audit</button>
             </div>
           </div>
-          <div className="imagess">
-            <img src={image} alt="img" />
+          <div>
+            <img className="imagess" src={image} alt="img" />
           </div>
         </div>
       </div>

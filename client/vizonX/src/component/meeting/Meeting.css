@@ -1,0 +1,47 @@
+.MmainDiv {
+  height: 100vh;
+  background: #f6f6f6;
+  padding: 50px 10px 50px 10px;
+}
+.insideMMaindiv {
+  height: 90vh;
+  border-radius: 30px;
+  background: #7a61cc2b;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  border-width: 0px, 0px, 0px, 0px;
+  box-shadow: 0px 4px 25.3px 9px #715cb77d;
+}
+.Mp1 {
+  font-family: Inria Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59.95px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Mp2 {
+  font-family: Inria Sans;
+  font-size: 18px;
+  padding: 15px 0 0 20px;
+  margin-left: 60px;
+  line-height: 28.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 70%;
+}
+.Cal {
+  background: #1e0992;
+  height: 100%;
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px 0px #00000040;
+}
+ul li {
+  margin-bottom: 30px;
+}
