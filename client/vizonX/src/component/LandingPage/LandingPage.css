@@ -2,6 +2,7 @@
   background: linear-gradient(180deg, #36267d 0%, #0f014d 100%);
   border: 1px solid #36267d;
   height: 100vh;
+  position: relative;
 }
 .insidelandingPage {
   background: linear-gradient(180deg, #ffffff 0%, #a592e3 100%);
@@ -18,7 +19,6 @@
 .text1 {
   position: absolute;
   width: 636px;
-  /* height: 143px; */
   top: 107px;
   left: 102px;
 }
@@ -86,7 +86,7 @@
   border: none;
 }
 .imagess {
-  position: absolute;
-  top: -50px;
-  left: 700px;
+  position: relative;
+  top: -55px;
+  left: 35px;
 }

@@ -1,9 +1,11 @@
 import "./NavBar.css";
+import logoVx from "../../../public/VizonX.png";
+
 const NavBar = () => {
   return (
     <>
       <div className="mainDiv">
-        <img src="" alt="vizonX"></img>
+        <img className="logoVx" src={logoVx} alt="vizonX"></img>
         <div className="innerDiv">
           <div>
             <a>Services</a>

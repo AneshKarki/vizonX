@@ -15,13 +15,12 @@
 }
 .flexDiv Div {
   flex: 1 1 calc(50% - 30px);
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background: #5b43ac7d;
   text-align: center;
   padding: 20px;
-  border: 1px solid #ccc;
-  gap: 0px;
-  /* height: 60vh; */
+  border: 10px solid #ccc;
+  /* height: 600px; */
   border: 1px;
   border-radius: 20px;
 }

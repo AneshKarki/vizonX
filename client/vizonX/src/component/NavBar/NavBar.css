@@ -10,8 +10,12 @@
   height: 10vh;
   padding-left: 20px;
   padding-right: 40px;
+  align-items: center;
 }
-
+.logoVx {
+  height: 80%;
+  border-radius: 50%;
+}
 .innerDiv {
   display: flex;
   color: white;
