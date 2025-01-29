@@ -5,9 +5,9 @@
 }
 .mainDiv {
   display: flex;
-  background: linear-gradient(180deg, #36267d 0%, #0f014d 100%);
+  background-color: transparent;
   justify-content: space-between;
-  height: 10vh;
+  height: 13vh;
   padding-left: 20px;
   padding-right: 40px;
   align-items: center;
@@ -22,4 +22,8 @@
   justify-content: space-between;
   width: 40%;
   padding: 10px;
+  font-weight: 600;
+}
+.innerDiv>div:hover {
+  cursor: pointer;
 }

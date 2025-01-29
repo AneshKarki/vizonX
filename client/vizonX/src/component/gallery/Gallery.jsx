@@ -3,7 +3,7 @@ import img1 from "../../../public/222c404bcb98a484758115eba0526c29.png";
 const Gallery = () => {
   return (
     <>
-      <div className="GmainDiv">
+      <div className="GmainDiv" id="Gallery">
         <p className="Pgallery">Gallery</p>
         <div className="Gflex">
           <div className="Gimg1">

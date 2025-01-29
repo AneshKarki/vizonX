@@ -1,5 +1,6 @@
 import "./NavBar.css";
 import logoVx from "/Logo.png";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   return (
@@ -8,16 +9,24 @@ const NavBar = () => {
         <img className="logoVx" src={logoVx} alt="vizonX"></img>
         <div className="innerDiv">
           <div>
-            <a>Services</a>
+            <Link to="Services" smooth={true} duration={500}>
+              Services
+            </Link>
           </div>
           <div>
-            <a>Gallery</a>
+          <Link to="Gallery" smooth={true} duration={500}>
+            Gallery
+          </Link>
           </div>
           <div>
-            <a>Projects</a>
+          <Link to="Services" smooth={true} duration={500}>
+            Projects
+          </Link>
           </div>
           <div>
-            <a>Contact</a>
+          <Link to="Contact" smooth={true} duration={500}>
+            Contact
+          </Link>
           </div>
         </div>
       </div>

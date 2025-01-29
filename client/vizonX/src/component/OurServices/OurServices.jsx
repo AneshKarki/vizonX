@@ -7,7 +7,7 @@ import img4 from "../../../public/708d402be9532f95db9cbf87c3fb0e93.png";
 const OurServices = () => {
   return (
     <>
-      <div className="ourServiceDiv">
+      <div className="ourServiceDiv" id="Services">
         <p className="mainP">Our Services</p>
         <div className="flexDiv">
           <div>

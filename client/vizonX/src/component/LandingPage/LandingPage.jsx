@@ -1,51 +1,26 @@
 import image from "../../../public/033560eb89e398210453e313ec558109.png";
 import "./LandingPage.css";
+import NavBar from "../NavBar/NavBar";
+
 const LandingPage = () => {
   return (
     <>
-      <div className="landingPage">
+      <div className="landingPage" id="Home">
+        <NavBar />
         <div className="insidelandingPage">
           <div className="text">
             <p
               className="text1"
-              style={{
-                fontFamily: " Inria Sans",
-                fontSize: "60px",
-                fontweight: "700",
-                lineheight: "71.94px",
-                textalign: "left",
-                textunderlineposition: "from-font",
-                textdecorationskipink: "none",
-                color: "#2609A6",
-              }}
             >
               VizonX Marketing Agency
             </p>
             <p
               className="text2"
-              style={{
-                fontfamily: "Inria Sans",
-                fontsize: "20px",
-                fontweight: " 400",
-                lineheight: "23.98px",
-                textalign: "left",
-                textunderlineposition: "from-font",
-                textdecorationskipink: "none",
-              }}
             >
-              <b>Elevate your Brand with Innovative Marketing Solutions</b>
+              <span>Elevate your Brand with Innovative Marketing Solutions</span>
             </p>
             <p
               className="text3"
-              style={{
-                fontfamily: "Inria Sans",
-                fontsize: "15px",
-                fontweight: "400",
-                lineheight: "17.99px",
-                textalign: "left",
-                textunderlineposition: "from-font",
-                textdecorationskipink: "none",
-              }}
             >
               Transform your brand with innovative marketing solutions tailored
               to your goals. At VizonX Marketing Agency, we drive growth through
@@ -57,8 +32,8 @@ const LandingPage = () => {
               <button className="btns2">Book Your Free Audit</button>
             </div>
           </div>
-          <div>
-            <img className="imagess" src={image} alt="img" />
+          <div className="imageDiv">
+            <img className="image" src={image} alt="img" />
           </div>
         </div>
       </div>

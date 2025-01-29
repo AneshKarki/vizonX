@@ -36,11 +36,11 @@
   width: 70%;
 }
 .Cal {
-  background: #1e0992;
+  /* background: #1e0992; */
   height: 100%;
   width: 70%;
   border-radius: 20px;
-  box-shadow: 0px 10px 10px 0px #00000040;
+  /* box-shadow: 0px 10px 10px 0px #00000040; */
 }
 ul li {
   margin-bottom: 30px;
