@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import logoVx from "../../../public/VizonX.png";
+import logoVx from "/Logo.png";
 
 const NavBar = () => {
   return (

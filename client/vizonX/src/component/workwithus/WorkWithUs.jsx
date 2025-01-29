@@ -21,9 +21,9 @@ const WorkWithUs = () => {
             <div className="boxDiv">
               <p className="textW3">Experience</p>
               <p className="textW4">
-                With years of experience in the marketing industry, we have
-                honed our skills and knowledge to provide top-notch services
-                that drive results.
+                Whether you’re a small local business or a growing international
+                company, our services are designed to scale with your needs,
+                providing consistent support.
               </p>
             </div>
           </div>
@@ -34,9 +34,9 @@ const WorkWithUs = () => {
             <div className="boxDiv">
               <p className="textW3">Flexibility</p>
               <p className="textW4">
-                With years of experience in the marketing industry, we have
-                honed our skills and knowledge to provide top-notch services
-                that drive results.
+                We prioritize strategies that drive high-quality leads and
+                conversions, maximizing your spend for the best possible
+                outcomes.
               </p>
             </div>
           </div>
