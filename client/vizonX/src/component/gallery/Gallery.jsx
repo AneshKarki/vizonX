@@ -7,7 +7,7 @@ const Gallery = () => {
         <p className="Pgallery">Gallery</p>
         <div className="Gflex">
           <div className="Gimg1">
-            
+          <img className="Ginsideimg" src={img1} alt="img" />
           </div>
           <div className="Gimg2">
             <p className="Gp1">

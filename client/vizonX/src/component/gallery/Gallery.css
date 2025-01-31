@@ -30,11 +30,11 @@
       height: 300px;
       background-color: #3498db;
       mask-image: radial-gradient(circle, transparent 10%, black 11%);
-      -webkit-mask-image: radial-gradient(circle, transparent 10%, black 11%);
-      clip-path: polygon(50% 0%, 100% 100%, 0% 100%); */
-  width: 60%;
+      -webkit-mask-image: radial-gradient(circle, transparent 10%, black 11%); */
+      /* clip-path: polygon(50% 0%, 100% 100%, 0% 100%); */
+  /* width: 60%;
   clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
-  border-radius: 20px 50px 50px 20px;
+  border-radius: 20px 50px 50px 20px; */
 }
 .Gimg2 {
   position: absolute;
