@@ -1,10 +1,12 @@
 .ourServiceDiv {
   background: #ebeaef;
+  width: 100vw;
 }
 .mainP {
   font-size: 3.5rem !important;
   text-align: center;
   padding: 10px;
+  padding-top: 18px;
 }
 .flexDiv {
   display: flex;

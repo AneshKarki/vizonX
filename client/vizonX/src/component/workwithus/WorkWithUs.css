@@ -5,6 +5,9 @@
   gap: 0px;
   opacity: 0px;
   background-image: url("../../../public/183e2ffb89fc0cd23009cac6f37fec5e.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .textW1 {
   display: flex;
